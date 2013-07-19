@@ -14,24 +14,26 @@ mobileFugitive is a drop-in class that dynamically detects whether the iOS devic
 ## Usage:
 
 * Import Lib
-```Objective-C
+```objective-c
 #import "mobileFugitive.h"
 ```
 
 * Init an object
-```Objective-C
+```objective-c
 MobileFugitive *jbDetector = [MobileFugitive alloc] init];
 ```
 
 * Check for Jailbreak
-```Objective-C
+```objective-c
 [jbDetector jbDetector];
 ```
 
 * Init an object
-```Objective-C
+```objective-c
 [jbDetector isCracked];
 ```
+
+**Inspired by:** https://github.com/diwu/ios-jail-break-detector
 
 ## LICENSE - "MIT License"
 
