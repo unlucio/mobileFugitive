@@ -28,7 +28,7 @@ MobileFugitive *jbDetector = [MobileFugitive alloc] init];
 [jbDetector isJailbroken];
 ```
 
-* Init an object
+* Check if can install cracked apps
 ```smalltalk
 [jbDetector isCracked];
 ```
